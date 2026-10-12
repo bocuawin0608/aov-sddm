@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Arena of Valor
+Description=Arena of Valor (Liên Quân Mobile) inspired SDDM greeter theme
+Author=Antigravity
+License=MIT
+Type=sddm-theme
+Version=1.0.0
+Website=https://github.com
+Screenshot=assets/backgrounds/screenshot_reference.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=aov-sddm
+Theme-API=2.0
+QtVersion=6
+

@@ -1,0 +1,1 @@
+scripts/set-video.sh

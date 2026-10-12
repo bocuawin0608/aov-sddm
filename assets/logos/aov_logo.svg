@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="380" height="90">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f8fafc"/>
+      <stop offset="70%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="logoGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#3b82f6" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#logoGlow)">
+    <!-- Crest Icon -->
+    <g transform="translate(10, 5) scale(0.68)">
+      <path d="M50 8 L85 45 L50 112 L15 45 Z" fill="none" stroke="url(#logoGrad)" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M50 16 L30 45 L50 95 L42 45 Z" fill="url(#logoGrad)" opacity="0.95"/>
+      <path d="M50 16 L70 45 L50 95 L58 45 Z" fill="#ffffff" opacity="0.9"/>
+      <polygon points="50,22 47,45 50,88 53,45" fill="#ffffff"/>
+      <circle cx="50" cy="45" r="4.5" fill="#67e8f9"/>
+    </g>
+    <!-- Text: LIÊN QUÂN -->
+    <text x="82" y="46" font-family="'Orbitron', 'Google Sans', 'Cantarell', 'Liberation Sans', sans-serif" font-weight="900" font-size="34" letter-spacing="2" fill="url(#logoGrad)">LIÊN QUÂN</text>
+    <!-- Text: ARENA OF VALOR -->
+    <text x="85" y="70" font-family="'Orbitron', 'Liberation Sans', sans-serif" font-weight="700" font-size="13.5" letter-spacing="5.5" fill="#e2e8f0" opacity="0.95">ARENA OF VALOR</text>
+  </g>
+</svg>
